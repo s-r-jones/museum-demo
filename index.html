@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deep Time · New Mexico History Museum</title>
+  <meta name="description" content="Concept exhibition site: three Smithsonian fossils in 3D." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <div class="loader">
+    <p class="loader-label">Unpacking the fossils</p>
+    <div class="loader-track"><div class="loader-bar"></div></div>
+  </div>
+
+  <div id="stage"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#hero">New Mexico History Museum</a>
+    <a class="header-link" href="#visit">Visit</a>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Concept exhibition · Palace of the Governors</p>
+        <h1>Deep Time</h1>
+        <p class="lede">Three fossils, 280 million years apart, scanned by the Smithsonian and brought to Santa Fe in 3D.</p>
+      </div>
+      <p class="scroll-cue">Scroll to explore</p>
+    </section>
+
+    <section id="triceratops" class="chapter text-left" data-chapter style="--length: 320vh">
+      <div class="sticky">
+        <article class="panel">
+          <p class="eyebrow">68–66 million years ago</p>
+          <h2><em>Triceratops horridus</em></h2>
+          <p>A three-horned plant-eater nearly 30 feet long, it walked the floodplains of western North America in the final days of the dinosaurs.</p>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Smithsonian, 1905</p>
+          <h2>Meet Hatcher</h2>
+          <p>The first Triceratops ever mounted in a museum was pieced together from ten different animals. A century later it was rebuilt from accurate casts and scanned.</p>
+          <figure><img src="/images/triceratops-1905.jpg" alt="The Triceratops mount on display in 1905" loading="lazy" /><figcaption>Hatcher on display, 1905</figcaption></figure>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Up close</p>
+          <h2>A beak and a battery of teeth</h2>
+          <p>A toothless beak snipped plants; dozens of cheek teeth sliced them like scissors, and new teeth replaced worn ones throughout its life.</p>
+          <figure><img src="/images/triceratops-teeth.jpg" alt="Rows of Triceratops cheek teeth" loading="lazy" /><figcaption>Cheek teeth in the jaw</figcaption></figure>
+        </article>
+      </div>
+    </section>
+
+    <section id="mammoth" class="chapter text-right" data-chapter style="--length: 300vh">
+      <div class="sticky">
+        <article class="panel">
+          <p class="eyebrow">Ice Age · until about 10,000 years ago</p>
+          <h2>Woolly mammoth</h2>
+          <p><em>Mammuthus primigenius</em> evolved in Asia and crossed Arctic land bridges into North America, where it shared the landscape with the continent's first people.</p>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">USNM 23792</p>
+          <h2>A skeleton of many</h2>
+          <p>This mount is a composite, built from the bones of several individuals. It was recovered in Alaska in 1952 and joined the Smithsonian's Ice Age Hall in 1966.</p>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Digitized</p>
+          <h2>Scanned where it stands</h2>
+          <p>Laser scanners captured the skeleton on exhibit, giving researchers a way to study giant bones that are too heavy to handle.</p>
+          <figure><img src="/images/mammoth-scan.jpg" alt="A laser scanner on a tripod beside the mammoth skeleton" loading="lazy" /><figcaption>Scanning in the Ice Age Hall</figcaption></figure>
+        </article>
+      </div>
+    </section>
+
+    <section id="diplocaulus" class="chapter text-left" data-chapter style="--length: 240vh">
+      <div class="sticky">
+        <article class="panel">
+          <p class="eyebrow">Permian · about 280 million years ago</p>
+          <h2><em>Diplocaulus magnicornis</em></h2>
+          <p>Older than the first dinosaurs, this amphibian lived in streams and ponds and is known for its striking boomerang-shaped head.</p>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Still a mystery</p>
+          <h2>What was the boomerang for?</h2>
+          <p>Even this partial skull shows the swept-back horn. Scientists still debate its purpose: steering in water, defense, or display.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="timeline">
+      <div class="sticky">
+        <h2 class="timeline-title">280 million years in one hall</h2>
+        <ol class="timeline-track">
+          <li><img src="/images/diplocaulus-render.jpg" alt="3D render of the Diplocaulus skull" loading="lazy" /><time>280 million years ago</time><p>Diplocaulus swims Permian streams.</p></li>
+          <li><img src="/images/triceratops-render.jpg" alt="3D render of the Triceratops skeleton" loading="lazy" /><time>66 million years ago</time><p>Triceratops is among the last of the dinosaurs.</p></li>
+          <li><img src="/images/mammoth-render.jpg" alt="3D render of the mammoth skeleton" loading="lazy" /><time>10,000 years ago</time><p>Woolly mammoths disappear from North America.</p></li>
+          <li><img src="/images/knight-triceratops-1901.jpg" alt="Charles R. Knight's 1901 painting of Triceratops" loading="lazy" /><time>1901</time><p>Charles R. Knight paints Triceratops as a slow, low-slung reptile.</p></li>
+          <li><img src="/images/triceratops-1905.jpg" alt="Hatcher on display in 1905" loading="lazy" /><time>1905</time><p>Hatcher goes on display in Washington.</p></li>
+          <li><img src="/images/deep-time-hall.jpg" alt="Visitors in a fossil hall" loading="lazy" /><time>2019</time><p>The Smithsonian's Deep Time hall opens.</p></li>
+          <li><img src="/images/triceratops-cast.jpg" alt="Tyrannosaurus and Triceratops mount" loading="lazy" /><time>Today</time><p>Every bone, in 3D, on any screen.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="visit" class="visit">
+      <p class="eyebrow">New Mexico History Museum</p>
+      <h2>Deep Time comes to Santa Fe</h2>
+      <p>113 Lincoln Avenue, on the Plaza.</p>
+      <div class="actions">
+        <a class="button primary" href="https://www.nmhistorymuseum.org/">Plan your visit</a>
+        <a class="button" href="https://3d.si.edu/">Explore the 3D collection</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>3D models: Smithsonian National Museum of Natural History, CC0, via <a href="https://3d.si.edu/">Smithsonian 3D Digitization</a>:
+      <a href="https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125">Triceratops horridus</a>,
+      <a href="https://3d.si.edu/object/3d/mammuthus-primigenius-blumbach:341c96cd-f967-4540-8ed1-d3fc56d31f12">Mammuthus primigenius</a>,
+      <a href="https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull:23a3cd17-8526-4b30-80e7-fdae0ecdd36a">Diplocaulus magnicornis</a>.
+      Images: Smithsonian Institution.</p>
+    <p>Concept demo by Refract Studio. Not an official NMHM site.</p>
+  </footer>
+</body>
+</html>
