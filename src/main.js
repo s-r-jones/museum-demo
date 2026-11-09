@@ -39,19 +39,31 @@ const shots = [
     models: { mammoth: { x: -1.1, rotY: 0.9 } },
   },
   {
-    at: ['mammoth', 1], mood: '#a8d4ff',
+    at: ['mammoth', 0.5], mood: '#a8d4ff',
     camera: [0, 1.6, 7.8], target: [0, 1, 0],
     models: { mammoth: { x: -1.1, rotY: 2.6 } },
   },
   {
-    at: ['diplocaulus', 0], mood: '#5fd3a8',
-    camera: [0, 1.5, 6], target: [0, 0.4, 0],
-    models: { diplocaulus: { x: 1.1, rotY: 0.4 } },
+    at: ['mammoth', 1], mood: '#c2e0ff',
+    camera: [-1.3, 1.7, 4], target: [-1.3, 1.3, 1],
+    phone: { camera: [-0.3, 2.1, 5.2], target: [-0.35, 1.7, 1] },
+    models: { mammoth: { x: -1.1, rotY: 5.75 } },
   },
   {
-    at: ['diplocaulus', 1], mood: '#5fd3a8',
-    camera: [0, 2.2, 5.2], target: [0, 0.5, 0],
-    models: { diplocaulus: { x: 1.1, rotY: 2.2 } },
+    at: ['diplocaulus', 0], mood: '#5fd3a8',
+    camera: [0, 1.5, 6], target: [0, 0.4, 0],
+    models: { diplocaulus: { x: 1.1, rotY: -0.6 } },
+  },
+  {
+    at: ['diplocaulus', 0.5], mood: '#5fd3a8',
+    camera: [0, 2, 5.2], target: [0, 0.6, 0],
+    models: { diplocaulus: { x: 1.1, rotY: 0.6 } },
+  },
+  {
+    at: ['diplocaulus', 1], mood: '#7ee6bf',
+    camera: [1.55, 1.5, 2.3], target: [1.35, 1.2, -0.1],
+    phone: { camera: [0.6, 2.1, 2.6], target: [0.5, 1.85, -0.1] },
+    models: { diplocaulus: { x: 1.1, rotY: 0.25 } },
   },
   {
     at: ['timeline', 0], mood: '#c58f63',
